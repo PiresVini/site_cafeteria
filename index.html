@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Gourmet Café</title>
+</head>
+
+<body>
+    <!--Navegação-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/images/Sem_título-removebg-preview.png" alt="Loo da cafeteria" id="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cardapio">Cardápio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#local">Local</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Carrousel-->
+        <div id="carousel-coffe" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/images/capuccino.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>A melhor experiência gastronomica com café</h5>
+                        <p>Você vai experienciar os melhores cafés do Brasil e do mundo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/grao-cafe.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Um ambiente pensado para você e sua família</h5>
+                        <p>Nosso restaurante foi pensado para fornecer um ambiente confortável, tranquilo e leve.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/pe-cafe.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Grãos selecionados</h5>
+                        <p>Experiência completa, soboreie grãos selecionados de produtores renomados</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffe" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffe" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--Blockquote-->
+        <figure class="text-center fw-lighter fst-italic mt-5" id="home">
+            <blockquote class="blockquote">
+                <p>“O dia perfeito é feito de amor e café na proporção certa”</p>
+            </blockquote>
+        </figure>
+        <!--Cards-->
+        <section class="container mt-5" id="about">
+            <div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/assets/images/amor-cafe.jpg" class="img-fluid rounded-start"
+                                        alt="Grãos de café em forma de coração">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title fst-italic fw-lighter">Somos apaixonados por café</h5>
+                                        <p class="card-text">Acreditamos que o café pode mudar o seu mundo</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/assets/images/barista.jpg" class="img-fluid rounded-start"
+                                        alt="Imagem de barista">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title fst-italic fw-lighter">Equipe premium de baristas</h5>
+                                        <p class="card-text">Profissionais especializados para levar o melhor do café
+                                            até
+                                            você
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Tabs cardápio-->
+        <section id="menu" class="container mt-5 mb-5">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="Cappucinos" data-bs-toggle="tab"
+                        data-bs-target="#Cappucinos-pane" type="button" role="tab" aria-controls="Cappucinos-pane"
+                        aria-selected="true">Cappucinos</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Gelatos" data-bs-toggle="tab" data-bs-target="#Gelatos-pane"
+                        type="button" role="tab" aria-controls="Gelatos-pane" aria-selected="false">Gelatos</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Sobremesas" data-bs-toggle="tab" data-bs-target="#Sobremesas-pane"
+                        type="button" role="tab" aria-controls="Sobremesas-pane"
+                        aria-selected="false">Sobremesas</button>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="Cappucinos-pane" role="tabpanel" aria-labelledby="Cappucinos"
+                    tabindex="0">
+                    <!--cards cappucinos-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 cards-cardapio" id="cardapio">
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/cardapio/capuccino.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cappucino Tradicional</h5>
+                                    <p class="card-text">R$ 15,50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/cardapio/capu-canela.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cappucino com Canela</h5>
+                                    <p class="card-text">R$ 17,90</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/cardapio/choco.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chococino</h5>
+                                    <p class="card-text">R$ 15,99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/cardapio/mocca.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mocacino</h5>
+                                    <p class="card-text">R$ 15,99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/cardapio/expresso-c.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Expresso Curto</h5>
+                                    <p class="card-text">R$ 3,99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/cardapio/expresso-l.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Expresso Longo</h5>
+                                    <p class="card-text">R$ 5,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Gelatos-pane" role="tabpanel" aria-labelledby="Gelatos" tabindex="0">
+                    <!--cards gelatos-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 cards-cardapio" id="cardapio">
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/gelatos/amend.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gelato amendoim</h5>
+                                    <p class="card-text">R$ 7,50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/gelatos/bauni.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gelato Baunilha</h5>
+                                    <p class="card-text">R$ 7,90</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/gelatos/choc-baun.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gelato Chocolate com baunilha</h5>
+                                    <p class="card-text">R$ 9,99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/gelatos/choc-ment.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gelato Chocolate com menta</h5>
+                                    <p class="card-text">R$ 9,99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/gelatos/esp-mor.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Especial de morango</h5>
+                                    <p class="card-text">R$ 12,99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/gelatos/melanc.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gelato Melancia</h5>
+                                    <p class="card-text">R$ 9,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Sobremesas-pane" role="tabpanel" aria-labelledby="Sobremesas"
+                    tabindex="0">
+                    <!--cards sobremesas-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 cards-cardapio" id="cardapio">
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/sobremesas/american-heritage-chocolate-DoK5qEy2L60-unsplash.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cookie chocolate</h5>
+                                    <p class="card-text">R$ 7,50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/sobremesas/farhan-shaikh-rVOIf6tc5DU-unsplash.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Folhado doce</h5>
+                                    <p class="card-text">R$ 7,90</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/sobremesas/food-photographer-jennifer-pallian-OfdDiqx8Cz8-unsplash.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cookie tradicional</h5>
+                                    <p class="card-text">R$ 9,99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/sobremesas/kobby-mendez-idTwDKt2j2o-unsplash.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">petit gatêau</h5>
+                                    <p class="card-text">R$ 9,99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/sobremesas/kobby-mendez-WXJ33HOrzvE-unsplash.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Donuts</h5>
+                                    <p class="card-text">R$ 12,99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="/assets/images/sobremesas/mockaroon-bzLhhI3MpYY-unsplash.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Macarons</h5>
+                                    <p class="card-text">R$ 9,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--Modal Maps-->
+        <section class="container cont-modal text-center" id="local">
+            <!-- Button trigger modal -->
+            <button type="button modal-button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#localModal">
+                Visite nossa loja !
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="localModal" tabindex="-1" aria-labelledby="localModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="localModalLabel">Esperamos por você !</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Rua figurativa nro: xxx</p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2440.6034690731894!2d-52.14883933790522!3d-32.05206585262028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1712407715901!5m2!1spt-BR!2sbr"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center bg-dark mt-5 p-5">
+        <img class="mt-3" src="/assets/images/Sem_título-removebg-preview.png" alt="">
+        <p class="fs-5 fw-medium text-light mt-3">Cafeteria | Transformando sua experiencia com café</p>
+        <p class="fs-5 fw-lighter text-light mt-1 mb-5"><img class="phone-logo" src="/assets/images/whats.png"
+                alt="">(55) 99999-9999</p>
+    </footer>
+</body>
+
+</html>
